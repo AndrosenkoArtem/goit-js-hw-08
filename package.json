@@ -2,7 +2,7 @@
   "name": "goit-js-hw-08",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://AndrosenkoArtem.github.io/goit-js-hw-08/",
+  "homepage": "https://androsenkoartem.github.io/goit-js-hw-08/",
   "scripts": {
     "start": "parcel src/*.html --no-cache",
     "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
