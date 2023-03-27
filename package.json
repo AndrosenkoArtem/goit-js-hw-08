@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "start": "parcel src/*.html --no-cache",
-    "build": "parcel build src/*.html --public-url /GOIT-JS-HW-08/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
   },
   "keywords": [],
   "author": "",
