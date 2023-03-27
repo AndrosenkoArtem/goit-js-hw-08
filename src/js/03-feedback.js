@@ -28,11 +28,10 @@ var debounce = require('lodash.debounce');
 const LOCALSTORAGE_KEY = 'feedback-form-state';
 const formRef = document.querySelector('.feedback-form');
 checkFromValueOnLocalStorage();
-const FormUseraData = { email: '', message: '' };
 function onFormValue(e) {
-  // FormUseraData.email = e.target.form.email.value;
-  // FormUseraData.message = e.target.form.message.value;
-  FormUseraData[e.target.name] = e.target.value;
+  const FormUseraData = { email: '', message: '' };
+  FormUseraData.email = e.target.form.email.value;
+  FormUseraData.message = e.target.form.message.value;
   localStorage.setItem(LOCALSTORAGE_KEY, JSON.stringify(FormUseraData));
 }
 function checkFromValueOnLocalStorage() {
