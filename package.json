@@ -7,6 +7,10 @@
     "start": "parcel src/*.html --no-cache",
     "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/androsenkoartem/goit-js-hw-08.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
